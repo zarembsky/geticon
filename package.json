@@ -1,0 +1,29 @@
+{
+  "name": "geticon",
+  "version": "1.0.0",
+  "description": "Returns icon extracted from executable as a stream of bytes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zarembsky/geticon.git"
+  },
+  "keywords": [
+    "executable",
+    "addon",
+    "C++",
+    "icon"
+  ],
+  "author": "Serge Zarembsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zarembsky/geticon/issues"
+  },
+  "homepage": "https://github.com/zarembsky/geticon#readme",
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^1.6.3"
+  }
+}
